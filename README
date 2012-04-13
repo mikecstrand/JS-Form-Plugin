@@ -1,0 +1,5 @@
+Fancy form replacement plugin for jQuery.
+
+Takes $(element).formReplace();
+
+Requires a set of CSS rules & ideally an image sprite to create the form elements.

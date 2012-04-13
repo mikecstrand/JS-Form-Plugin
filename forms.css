@@ -1,0 +1,190 @@
+/*---
+
+	@todo a good ol' tidy
+
+---*/
+
+form label {
+	font:bold 14px arial;
+}
+
+form.replaced span {
+	display:block;
+}
+
+form div input + span {
+	font:normal 12px arial, verdana, sans-serif;
+	color:#FFF;
+}
+
+form ul li {
+	list-style:none;
+}
+
+span {
+	font:normal 12px arial, verdana, sans-serif;
+}
+
+input {
+	padding:8px;
+	font:normal 12px arial, verdana, sans-serif;
+	height:14px;
+	color:#000;
+}
+
+form.replaced input, form.replaced .ctext span, form.replaced .cselect span, .ccheck span, .cradio span {
+	background:url(../images/form.png) 0 0 no-repeat;
+	border:0;
+	padding:8px;
+}
+
+
+.ctext {
+	
+	height:30px;
+}
+
+.ctext input {
+	float:left;
+	resize:none;
+}
+	
+.ctext span {
+	background-position:-695px 0 !important;
+	padding:0 !important;
+	height:30px;
+	float:left;
+	width:5px;
+	padding:0 !important;
+}
+
+.ctext.big {
+	height:41px;
+}
+input.big {
+	height:40px;
+	padding:12px 8px !important;
+	height:16px;
+	font:bold 14px arial !important;
+}
+
+.ctext.big input {
+	float:left;
+	background-position:0 -31px;
+}
+	
+.ctext.big span {
+	float:left;
+	height:40px;
+	background-position:-695px -31px !important;
+	padding:0 !important;
+
+}
+
+.cselect {
+	position:relative;
+	width:229px;
+}
+
+.cselect span {
+	cursor:pointer;
+	width:229px;
+	height:14px;
+	background-position:0 -72px !important;
+}
+
+.cselect ul {
+	position:absolute;
+	top:35px;
+	left:0;
+	background:#FFF;
+	z-index:9999;
+	padding:4px 0;
+	width:100%;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin:0;
+}
+
+.cselect li {
+	font:normal 11px arial, verdana, sans-serif;
+	color:#333;
+	border-bottom:1px solid #CCC;
+	cursor:pointer;
+	padding:8px;	
+}
+
+.cselect li:last-child {
+	border-bottom:0;
+}
+	
+.cselect.big span {
+	cursor:pointer;
+	width:229px;
+	padding:12px 8px !important;
+	height:16px;
+	background-position:0 -103px !important;
+	font:bold 14px arial !important;
+}
+
+.cselect.big ul {
+	top:45px
+}
+
+.cselect.big li {
+	font-size:13px;
+}
+.ccheck {
+	padding:2px 0;
+}
+.ccheck span {
+	height:12px;
+	background-position:0 -157px;
+	font:normal 12px arial;
+	color:#FFF;
+	padding:0 0 0 15px;
+	cursor:pointer;
+}
+
+.ccheck span.checked {
+	background-position:0 -144px;	
+}
+
+.cradio {
+	padding:2px 0;
+}
+
+.cradio span {
+	height:14px;
+	background-position:0 -184px;
+	padding:0 0 0 15px;
+	cursor:pointer;
+	color:#FFF;
+}
+
+.cradio span.checked {
+	background-position:0 -170px;	
+}
+
+.hidden { display:none; }
+
+.nojs .hidden {
+	display:block;
+}
+
+.nojs input + span {
+	color:#FFF;
+}
+
+textarea {
+	padding:10px;
+	font-family:arial;
+	font-size:12px;
+	resize:none;
+	min-height:100px;
+}
+
+select {
+	color:#000;
+}
